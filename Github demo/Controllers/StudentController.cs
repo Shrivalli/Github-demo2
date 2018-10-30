@@ -19,6 +19,10 @@ namespace Github_demo.Controllers
             return View();
         }
 
+        public ActionResult SearchSt()
+        {
+            return View();
+        }
 
     }
 }

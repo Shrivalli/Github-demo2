@@ -19,7 +19,18 @@ namespace Github_demo.Controllers
             return View();
         }
 
+        public ActionResult DeleteSt()
+        {
+            return View();
+        }
+
         public ActionResult SearchSt()
+        {
+            ViewBag.i = 45;
+            return View();
+        }
+
+        public ActionResult abc()
         {
             return View();
         }
